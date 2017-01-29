@@ -24,6 +24,9 @@
   <ItemGroup>
     <Content Include="app.css" />
     <Content Include="index.html" />
+    <Content Include="SamplePage1\SamplePage1.css" />
+    <Content Include="SamplePage1\SamplePage1.html" />
+    <Content Include="SamplePage2\SamplePage2.html" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
