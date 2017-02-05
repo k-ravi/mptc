@@ -24,6 +24,8 @@
   <ItemGroup>
     <Content Include="app.css" />
     <Content Include="index.html" />
+    <Content Include="JavaScript\JavascriptBasics.html" />
+    <Content Include="JavaScript\JavaScript_Basics.js" />
     <Content Include="SamplePage1\SamplePage1.css" />
     <Content Include="SamplePage1\SamplePage1.html" />
     <Content Include="SamplePage2\SamplePage2.html" />
@@ -39,6 +41,10 @@
     <None Include="web.Release.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AnularJs\Sample1\" />
+    <Folder Include="SOLID Priiciples\Pract1\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>

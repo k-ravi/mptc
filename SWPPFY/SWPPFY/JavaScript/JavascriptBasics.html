@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script>
+        // Get the text content:
+        var text = document.getElementById("divA").textContent;
+        // |text| is set to "This is some text".
+        // Set the text content:
+        document.getElementById("divA").textContent = "This is some text";
+        console.log('#foo\bar')               // "#fooar" (\b is the backspace control character)
+  document.querySelector('#foo\bar')    // Does not match anything
+
+  console.log('#foo\\bar')              // "#foo\bar"
+  console.log('#foo\\\\bar')            // "#foo\\bar"
+  document.querySelector('#foo\\\\bar') // Match the first div
+
+  document.querySelector('#foo:bar')    // Does not match anything
+  document.querySelector('#foo\\:bar')  // Match the second div
+ 
+  
+    </script>
+</head>
+<body>
+<div    >
+    <div><h1>Heading</h1></div>
+    <div id="foo\bar"></div>
+    <div id="foo:bar"></div>
+    <!--// Given the following HTML fragment:-->
+       <div id="divA">This is <span>some</span> text</div>
+
+    <!--// The HTML for divA is now:-->
+    <!--<div id="divA">This is some text</div>-->
+
+    
+</div>
+</body>
+</html>
